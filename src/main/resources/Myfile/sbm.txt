@@ -1,0 +1,5 @@
+新建一个maven project
+配置java ，maven，
+配置spring boot、mybatis，mysql驱动，日志，pagehelper...依赖
+配置启动类在启动类加注解，扫描该包下的mybatis的持久化类
+eg: @MapperScan("com.wm.sbm.*.mapper")
